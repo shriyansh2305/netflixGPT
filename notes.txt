@@ -1,7 +1,11 @@
 - setup project
 - setup tailwind
 - Header
+- Routing
 - Login Form
+- Signup form
+- Form Validation
+- useRef Hook
 Note: When we are using forms, we always need to do validations, we can manage if the form fields are less. But when the fields increase, we should start using external libraies like: 
 | Library         | Size   | Validation     | Controlled/Uncontrolled  | Best Use Case                 |
 | --------------- | ------ | -------------- | ------------------------ | ----------------------------- |
