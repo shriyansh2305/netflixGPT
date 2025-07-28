@@ -1,2 +1,11 @@
 - setup project
 - setup tailwind
+- Header
+- Login Form
+Note: When we are using forms, we always need to do validations, we can manage if the form fields are less. But when the fields increase, we should start using external libraies like: 
+| Library         | Size   | Validation     | Controlled/Uncontrolled  | Best Use Case                 |
+| --------------- | ------ | -------------- | ------------------------ | ----------------------------- |
+| React Hook Form | Small  | Yup / Zod / JS | Uncontrolled             | High performance, simple use  |
+| Formik          | Medium | Yup            | Controlled               | Complex logic, great docs     |
+| Final Form      | Small  | Custom         | Controlled               | Full control, flexibility     |
+| Zod             | Small  | Built-in       | Use with other libraries | TS-friendly schema validation |
